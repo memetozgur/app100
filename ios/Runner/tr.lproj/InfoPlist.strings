@@ -1,0 +1,2 @@
+NSCameraUsageDescription = "Lütfen uygulamaya  kamerayı kullanma izni verin";
+NSPhotoLibraryUsageDescription = "Lütfen uygulamaya galeri ve kamerayı kullanma izni verin";

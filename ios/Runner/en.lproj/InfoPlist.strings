@@ -1,0 +1,2 @@
+NSCameraUsageDescription = "Please give permission to app to use camera";
+NSPhotoLibraryUsageDescription = "Please give permission to app to use gallery and camera";

@@ -1,0 +1,134 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "lesson",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "teacher",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "subject",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lesson_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "free_course",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "course_teacher",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "stage",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "subject",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "course_title",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "section",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "teacher",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "subject",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "section_name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "comment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "lesson_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateA",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "les_file",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "lesson_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "subject",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "teacher_of_subject",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "post_time",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "free_course",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "course_teacher",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "subject",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "course_title",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "reply-comment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "lesson",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "comment_id_reply",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

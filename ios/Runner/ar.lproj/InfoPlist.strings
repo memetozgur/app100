@@ -1,0 +1,2 @@
+NSCameraUsageDescription = "يرجى منح الإذن للتطبيق لاستخدام الكاميرا";
+NSPhotoLibraryUsageDescription = "يرجى منح الإذن للتطبيق لاستخدام الاستوديو";
